@@ -66,20 +66,20 @@
         }
     </style>
     <script>
-        let exchangeRate = 5.75;
-        let pacoteQuantidades = {
-            10: 0,
-            30: 0,
-            50: 0,
-            100: 0
-        };
+let tasaDeCambio = 5.75;
+let cantidadesPaquetes = {
+    10: 0,
+    30: 0,
+    50: 0,
+    100: 0
+};
 
-        const pacotePrecos = {
-            10: 7.50,
-            30: 22.50,
-            50: 37.50,
-            100: 75.00
-        };
+const preciosPaquetes = {
+    10: 7.50,
+    30: 22.50,
+    50: 37.50,
+    100: 75.00
+};
 
         function actualizarCantidadesPaquete(paquete, cantidad) {
             cantidadesPaquete[paquete] = parseInt(cantidad) || 0;
